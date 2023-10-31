@@ -9,6 +9,7 @@ import tensorflow as tf
 app = FastAPI()
 
 origins = [
+    "https://tomato-leaf-prediction.vercel.app",
     "http://localhost:3000",
     "http://172.31.32.1:3000",
 ]
